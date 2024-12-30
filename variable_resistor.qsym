@@ -1,0 +1,12 @@
+ÿØÿÛ«symbol variable_resistor
+  «type: X»
+  «description: Machine generated symbol for VAR_RESISTOR»
+  «library file: |.subckt var_resistor N001 N002 control\nG1 N001 N002 VALUE = {V(N001, N002) / V(control)}\n.ends var_resistor»
+  «shorted pins: false»
+  «zigzag (-400,-100) (300,100) 0 0 0 0x1000000 -1 -1»
+  «text (-100,500) 1 0 0 0x1000000 -1 -1 "X1"»
+  «text (-50,300) 1 0 0 0x1000000 -1 -1 "VAR_RESISTOR"»
+  «pin (-400,0) (-490,150) 1 7 0 0x0 -1 "N001"»
+  «pin (300,0) (290,150) 1 11 0 0x0 -1 "N002"»
+  «pin (0,-200) (10,-10) 1 14 0 0x0 -1 "control"»
+»
